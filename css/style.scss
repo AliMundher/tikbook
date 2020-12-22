@@ -1,3 +1,28 @@
+.box_all_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+  top: -29px;
+}
+.box_h2 {
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  position: relative;
+  top: -22px;
+}
+.btn_g {
+  width: 65px;
+  border-radius: 100px;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 3px;
+  border: none;
+  text-transform: capitalize;
+}
 body {
   background-color: rgb(4, 11, 20);
   .img_persone {
@@ -87,7 +112,7 @@ body {
     ul {
       list-style: none;
       padding: 0;
-      margin-left: 15px;
+
       li {
         padding-top: 5px;
         display: inline-block;
@@ -98,9 +123,60 @@ body {
     }
     .coment_p {
       color: white;
-      margin-left: 15px;
+
       font-size: 0.9em;
       text-transform: capitalize;
     }
   }
+  .boxes {
+    .box__one {
+      background-color: #1b1c1d;
+      border-radius: 10px;
+      min-height: 200px;
+      padding: 10px;
+      .prgres {
+        .num {
+          font-size: 0.6em;
+          color: white;
+          display: block;
+          text-align: left;
+          position: relative;
+          top: -8px;
+        }
+      }
+    }
+    .box__two {
+      background-color: #1b1c1d;
+      border-radius: 10px;
+    }
+    .box_icons {
+      i {
+        font-size: 0.8em;
+      }
+    }
+    .buttons {
+      .btn_global {
+        @extend .btn_g;
+        &.btn_one {
+          background-color: #ff006c;
+        }
+        &.btn_two {
+          border: 2px solid white;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// Bootstrap
+.progress {
+  height: 0.4rem;
+  font-size: 0.45rem;
+  border-radius: 0.25rem;
+  background-color: #040910;
+  font-weight: bold;
+}
+.progress-bar {
+  background-color: #ff006c;
 }

@@ -1,3 +1,31 @@
+.box_all_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+  top: -29px;
+}
+
+.box_h2 {
+  color: white;
+  font-size: 0.9em;
+  font-weight: bold;
+  position: relative;
+  top: -22px;
+}
+
+.btn_g, body .boxes .buttons .btn_global {
+  width: 65px;
+  border-radius: 100px;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 3px;
+  border: none;
+  text-transform: capitalize;
+}
+
 body {
   background-color: #040b14;
 }
@@ -98,7 +126,6 @@ body .box .box_p {
 body .comment ul {
   list-style: none;
   padding: 0;
-  margin-left: 15px;
 }
 
 body .comment ul li {
@@ -111,8 +138,53 @@ body .comment ul li {
 
 body .comment .coment_p {
   color: white;
-  margin-left: 15px;
   font-size: 0.9em;
   text-transform: capitalize;
+}
+
+body .boxes .box__one {
+  background-color: #1b1c1d;
+  border-radius: 10px;
+  min-height: 200px;
+  padding: 10px;
+}
+
+body .boxes .box__one .prgres .num {
+  font-size: 0.6em;
+  color: white;
+  display: block;
+  text-align: left;
+  position: relative;
+  top: -8px;
+}
+
+body .boxes .box__two {
+  background-color: #1b1c1d;
+  border-radius: 10px;
+}
+
+body .boxes .box_icons i {
+  font-size: 0.8em;
+}
+
+body .boxes .buttons .btn_global.btn_one {
+  background-color: #ff006c;
+}
+
+body .boxes .buttons .btn_global.btn_two {
+  border: 2px solid white;
+  color: white;
+}
+
+.progress {
+  height: 0.4rem;
+  font-size: 0.45rem;
+  border-radius: 0.25rem;
+  background-color: #040910;
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: #ff006c;
 }
 /*# sourceMappingURL=style.css.map */
